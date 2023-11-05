@@ -1,15 +1,20 @@
-# Face-recognition-system
+Face Recognition System
 
-To use this face recognition system created using Python follow the following steps
+This is a Python-based application that leverages facial recognition technology to identify and verify individuals.
 
-1, Install the necessary libraries 
-2, Create an empty folder called imagesUnknown, Train, Training, and userDetail, which 
-   is included in this repository 
+1, Setup
 
-After setting up everything RUN the code. 
-1, Insert ID number (must be number) and Name of the user
-2, After Taking pictures, Train the image
-3, Lastly, Enjoy recognizing faces by pressing the recognize button.
+Install Python from python.org.
+Install necessary libraries using pip:  "pip install opencv-python numpy face_recognition"
 
+2, Create directories: imagesUnknown, Train, Training, and userDetail in the project root.
+How to Use
 
+3, Registration: Execute python register.py and follow the prompts to enter the user's ID and name.
+* Take Pictures: Photograph the user for the system's training.
+* Training: Run python train.py to train the recognizer with new images.
+* Recognition: Launch python recognize.py to begin face recognition.
+
+4, Contributing
+Your contributions are welcome! Please fork the repository, make your updates, and submit a pull request.
 
